@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas PWA</title>
+    <meta name="theme-color" content="#0d0072"/>
+    <link rel="manifest" href="assets/js/web.webmanifest">
+    <link rel="apple-touch-icon" href="assets/img/icon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="profil">
+        <h1 style="text-align: center;">Profil</h1>
+        <div class="profil-container">
+            <img src="assets/img/diri.png" alt="">
+            <table class="profil" border="0">
+                <tr>
+                    <td>NAMA </td>
+                    <td>:</td>
+                    <td>ATIKAH QURROTU AINI</td>
+                </tr>
+                <tr>
+                    <td>NIM </td>
+                    <td>:</td>
+                    <td>20185002</td>
+                </tr>
+                <tr>
+                    <td>KELAS </td>
+                    <td>:</td>
+                    <td>REGULER MALAM</td>
+                </tr>
+                <tr>
+                    <td>SEMESTER </td>
+                    <td>:</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>MATA KULIAH</td>
+                    <td>:</td>
+                    <td>KOMPUTASI AWAN DAN PERANGKAT BERGERAK</td>
+                </tr>
+                <!-- <tr>
+                    <td>Tujuan </td>
+                    <td>:</td>
+                    <td>belajar Mobile Programming PWA (Progressive Web App)</td>
+                </tr> -->
+            </table>
+        </div>
+        <div class="komentar-form">
+            <h2>Form Komentar</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="isi">Isi Komentar:</label>
+                    <textarea id="isi" name="isi" placeholder="Tulis komentar Anda" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Kirim Komentar</button>
+                </div>
+            </form>
+        </div>
+        <div class="komentar-list">
+            <h2>Komentar</h2>
+            <ul id="komentar-list" class="komentarnya"></ul>
+          </div>
+          
+    </div>
+    
+    <script src="assets/js/register.js"></script>
+    <script src="assets/js/db.js"></script>
+</body>
+</html>

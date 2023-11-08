@@ -1,0 +1,123 @@
+body {
+    padding-right: 10%;
+    padding-left: 10%;
+    background-color: rgb(236, 236, 236);
+}
+h1 {
+    font-size: 3em;
+}
+p, 
+a {
+    font-size: 18px;
+}
+p {
+    text-align: justify;
+}
+
+img{
+    width: 100px;
+}
+.profil {
+    width: 80%; 
+    margin: 0 auto; 
+    text-align: left; 
+    font-family: "Montserrat", sans-serif;
+}
+
+.profil-container {
+    display: flex;
+    align-items: center; 
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.profil img {
+    width: 150px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.profil table {
+    width: 100%;
+    border: 0;
+    margin: 20px;
+}
+
+.profil td {
+    padding: 5px; 
+}
+
+.profil h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profil table td:nth-child(1) {
+    font-weight: bold; 
+}
+
+.profil table td:nth-child(3) {
+    font-weight: normal;
+}
+
+.komentar-form {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.komentar-form h2 {
+    font-size: 20px;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* .profil tr:nth-child(odd) {
+    background-color: #d1d1d1;
+}
+.profil tr:nth-child(even) {
+    background-color: #ffffff; 
+} */
+
+.komentar-list {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.komentarnya {
+    background-color: #ccc;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
